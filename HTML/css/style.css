@@ -58,8 +58,8 @@ h5 {
 }
 
 p {
-  color: #959595;
-  font-size: 20px;
+  color: #29292b;
+  font-size: 15px;
   font-weight: 300;
   line-height: 30px;
   letter-spacing: 0.5px;
@@ -314,9 +314,7 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 #home {
-  height: 85vh;
-  position: relative;
-  padding-top: 150px;
+  padding: 50px 0 120px 0;
 }
 
 
@@ -743,10 +741,6 @@ footer {
     font-size: 27px;
   }
 
-  #home {
-    height: 50vh;
-  }
-
   .about-info {
     padding-top: 22px;
   }
@@ -767,6 +761,10 @@ footer {
   #client .container {
     padding: 82px 62px;
     min-height: 350px;
+  }
+
+  #home .col-md-4 {
+    padding-top: 50px;
   }
 }
 
@@ -789,10 +787,6 @@ footer {
 
   .navbar-default .nav li a {
     line-height: 15px;
-  }
-
-  #home {
-    height: 65vh;
   }
 
   #project-detail .col-md-6 img {
@@ -833,11 +827,6 @@ footer {
     font-size: 18px;
   }
 
-  #home {
-    padding-top: 165px;
-    height: 90vh;
-  }
-
   #client .container {
     padding: 42px 22px;
     min-height: inherit;
@@ -854,10 +843,6 @@ footer {
 
   p {
     font-size: 16px;
-  }
-
-  #home {
-    height: 125vh;
   }
 
   #project-detail-links {
